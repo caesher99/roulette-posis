@@ -8,6 +8,14 @@
   ],
   "routes": [
     {
+      "src": "/colores%20de%20ruleta.txt",
+      "dest": "server.js"
+    },
+    {
+      "src": "/update-weights",
+      "dest": "server.js"
+    },
+    {
       "src": "/(.*)",
       "dest": "server.js"
     }
